@@ -6,7 +6,7 @@ import { ObjectHierarchyJSON } from './Models/ObjectHierarchyJSON';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CouchDbService],
+  imports: [],
   providers: [CouchDbService],
   template: `
     <h1>Hello from {{ name }}!</h1>

@@ -5,7 +5,7 @@ import { map, expand, reduce, catchError, mergeMap } from 'rxjs/operators';
 import {
   ObjectHierarchyJSON,
   Relationship,
-} from './src/Models/ObjectHierarchyJSON';
+} from './Models/ObjectHierarchyJSON';
 
 @Injectable({
   providedIn: 'root',
